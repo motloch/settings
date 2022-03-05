@@ -5,9 +5,9 @@ syntax enable
 colorscheme solarized
 "Tab stop and other indentation
 set expandtab
-set ts=4
-set sts=4
-set sw=4
+set ts=2
+set sts=2
+set sw=2
 set autoindent
 set textwidth=90
 "No dos encodings
@@ -36,3 +36,7 @@ set backspace=indent,eol,start
 " set spellcheck
 autocmd Filetype tex setlocal spell
 autocmd Filetype txt setlocal spell
+" PEP
+autocmd Filetype py setlocal ts=4
+autocmd Filetype py setlocal sts=4
+autocmd Filetype py setlocal sw=4
